@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+qa/
+.ipynb_checkpoints/
+.jupyter_runtime/
+.ipython/
+.mplconfig/

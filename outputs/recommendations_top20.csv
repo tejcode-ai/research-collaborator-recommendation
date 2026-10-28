@@ -1,0 +1,81 @@
+researcher_1,researcher_2,method,rank,score,shared_collaborators
+45,46,Common Neighbors,1,42.0,42
+4511,4513,Common Neighbors,2,42.0,42
+4511,22691,Common Neighbors,3,42.0,42
+46,4513,Common Neighbors,4,41.0,41
+46,22691,Common Neighbors,5,41.0,41
+5210,7444,Common Neighbors,6,25.0,25
+7444,8727,Common Neighbors,7,25.0,25
+7444,9869,Common Neighbors,8,25.0,25
+7444,12710,Common Neighbors,9,25.0,25
+7444,15245,Common Neighbors,10,25.0,25
+7444,15933,Common Neighbors,11,25.0,25
+7444,19446,Common Neighbors,12,25.0,25
+7444,20576,Common Neighbors,13,25.0,25
+7444,22504,Common Neighbors,14,25.0,25
+2449,5210,Common Neighbors,15,24.0,24
+2449,8727,Common Neighbors,16,24.0,24
+2449,12710,Common Neighbors,17,24.0,24
+2449,15245,Common Neighbors,18,24.0,24
+2449,15457,Common Neighbors,19,24.0,24
+2449,19446,Common Neighbors,20,24.0,24
+29,16751,Jaccard,1,1.0,1
+85,5413,Jaccard,2,1.0,1
+114,2348,Jaccard,3,1.0,1
+114,6631,Jaccard,4,1.0,1
+123,23240,Jaccard,5,1.0,1
+195,19168,Jaccard,6,1.0,3
+232,1075,Jaccard,7,1.0,1
+232,13481,Jaccard,8,1.0,1
+232,16742,Jaccard,9,1.0,1
+252,15418,Jaccard,10,1.0,1
+312,16545,Jaccard,11,1.0,2
+352,20533,Jaccard,12,1.0,3
+374,20776,Jaccard,13,1.0,1
+392,3173,Jaccard,14,1.0,1
+392,3853,Jaccard,15,1.0,1
+392,15251,Jaccard,16,1.0,1
+392,16261,Jaccard,17,1.0,1
+392,21866,Jaccard,18,1.0,1
+400,14498,Jaccard,19,1.0,1
+628,13641,Jaccard,20,1.0,1
+45,46,Adamic-Adar,1,10.597802981766895,42
+4511,4513,Adamic-Adar,2,10.592054841937907,42
+4511,22691,Adamic-Adar,3,10.592054841937907,42
+46,4513,Adamic-Adar,4,10.335105670753032,41
+46,22691,Adamic-Adar,5,10.335105670753032,41
+5210,7444,Adamic-Adar,6,6.69908268240587,25
+7444,8727,Adamic-Adar,7,6.69908268240587,25
+7444,9869,Adamic-Adar,8,6.69908268240587,25
+7444,12710,Adamic-Adar,9,6.69908268240587,25
+7444,15245,Adamic-Adar,10,6.69908268240587,25
+7444,15933,Adamic-Adar,11,6.69908268240587,25
+7444,19446,Adamic-Adar,12,6.69908268240587,25
+7444,20576,Adamic-Adar,13,6.69908268240587,25
+7444,22504,Adamic-Adar,14,6.69908268240587,25
+2449,5210,Adamic-Adar,15,6.391750298405703,24
+2449,8727,Adamic-Adar,16,6.391750298405703,24
+2449,12710,Adamic-Adar,17,6.391750298405703,24
+2449,15245,Adamic-Adar,18,6.391750298405703,24
+2449,15457,Adamic-Adar,19,6.391750298405703,24
+2449,19446,Adamic-Adar,20,6.391750298405703,24
+15244,21012,Preferential Attachment,1,4779.0,0
+15244,21281,Preferential Attachment,2,4661.0,0
+12365,15244,Preferential Attachment,3,4543.0,0
+15244,22691,Preferential Attachment,4,4543.0,0
+6610,15244,Preferential Attachment,5,4012.0,0
+9785,15244,Preferential Attachment,6,4012.0,0
+6512,21012,Preferential Attachment,7,3969.0,0
+15244,21508,Preferential Attachment,8,3953.0,0
+15244,17655,Preferential Attachment,9,3894.0,0
+6512,21281,Preferential Attachment,10,3871.0,0
+2741,15244,Preferential Attachment,11,3835.0,0
+6512,12365,Preferential Attachment,12,3773.0,0
+6512,22691,Preferential Attachment,13,3773.0,0
+15244,19423,Preferential Attachment,14,3717.0,0
+15003,15244,Preferential Attachment,15,3658.0,0
+13801,21012,Preferential Attachment,16,3645.0,1
+13929,21012,Preferential Attachment,17,3645.0,0
+13801,21281,Preferential Attachment,18,3555.0,1
+13929,21281,Preferential Attachment,19,3555.0,1
+14807,15244,Preferential Attachment,20,3540.0,0

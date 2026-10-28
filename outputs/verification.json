@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "train_test_disjoint": true,
+    "split_reconstructs_full": true,
+    "negative_validity": true,
+    "reproducible_primary": true,
+    "recommendations_valid": true,
+    "recommendation_count": true,
+    "recommendation_scores_match_shared_code": true,
+    "exact_candidate_count": true,
+    "graphml_roundtrip": true,
+    "notebook_executed": true,
+    "html_embeds_javascript": true,
+    "html_no_external_script_assets": true,
+    "png_svg_open": true,
+    "evaluation_report.pdf_readable": true,
+    "presentation.pdf_readable": true,
+    "presentation_12_pages": true,
+    "app_initial": true,
+    "app_download_controls": true,
+    "all_app_sections_and_selectors": true,
+    "csv_download_payload_roundtrip": true
+  },
+  "all_passed": true,
+  "pdf_pages": {
+    "evaluation_report.pdf": 10,
+    "presentation.pdf": 12
+  },
+  "app_sections_checked": [
+    "Overview",
+    "Network Explorer",
+    "Algorithm Comparison",
+    "Collaborator Recommendations",
+    "Researcher Profile",
+    "About and Limitations"
+  ],
+  "browser_limitation": "AppTest checks Python widget interactions and CSV payloads; browser zoom/pan and native download dialogs require manual review."
+}

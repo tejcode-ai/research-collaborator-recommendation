@@ -1,0 +1,88 @@
+{
+  "full": {
+    "nodes": 5242,
+    "edges": 14484,
+    "components": 355,
+    "largest_component": 4158,
+    "isolates": 1,
+    "density": 0.0010544047057723853,
+    "degree_min": 0,
+    "degree_max": 81,
+    "degree_mean": 5.526135062953071,
+    "degree_median": 3.0,
+    "average_clustering": 0.5296358110521362
+  },
+  "training": {
+    "42": {
+      "nodes": 5242,
+      "edges": 11587,
+      "components": 650,
+      "largest_component": 3875,
+      "isolates": 298,
+      "density": 0.000843509205038983,
+      "degree_min": 0,
+      "degree_max": 64,
+      "degree_mean": 4.42083174360931,
+      "degree_median": 2.0,
+      "average_clustering": 0.35692639194112163
+    },
+    "7": {
+      "nodes": 5242,
+      "edges": 11587,
+      "components": 642,
+      "largest_component": 3903,
+      "isolates": 292,
+      "density": 0.000843509205038983,
+      "degree_min": 0,
+      "degree_max": 68,
+      "degree_mean": 4.42083174360931,
+      "degree_median": 2.0,
+      "average_clustering": 0.3564493677008782
+    },
+    "21": {
+      "nodes": 5242,
+      "edges": 11587,
+      "components": 648,
+      "largest_component": 3882,
+      "isolates": 307,
+      "density": 0.000843509205038983,
+      "degree_min": 0,
+      "degree_max": 66,
+      "degree_mean": 4.42083174360931,
+      "degree_median": 2.0,
+      "average_clustering": 0.36195057317052676
+    },
+    "84": {
+      "nodes": 5242,
+      "edges": 11587,
+      "components": 631,
+      "largest_component": 3879,
+      "isolates": 268,
+      "density": 0.000843509205038983,
+      "degree_min": 0,
+      "degree_max": 69,
+      "degree_mean": 4.42083174360931,
+      "degree_median": 2.0,
+      "average_clustering": 0.3553305055201094
+    }
+  },
+  "primary_seed": 42,
+  "seeds": [
+    42,
+    7,
+    21,
+    84
+  ],
+  "raw_rows": 28980,
+  "self_loop_rows": 12,
+  "duplicate_or_reverse_rows": 14484,
+  "candidate_non_edges": 13722177,
+  "best_method": "Adamic-Adar",
+  "selection_criterion": "Highest primary ROC-AUC; alphabetical method name breaks ties",
+  "sha256": "a254442cdf5d684712578b630c2e0d7543518ab154ef2341cabb607572ce7230",
+  "overview": {
+    "center": 179,
+    "node_limit": 35,
+    "rule": "BFS from lowest ID with degree 3 in the largest component; neighbor order descending degree then ID; all induced edges"
+  }
+}

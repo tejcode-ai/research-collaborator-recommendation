@@ -1,0 +1,103 @@
+[
+  [
+    "Research Collaborator Recommendation",
+    [
+      "Social Network Analysis AAT",
+      "A structural link prediction experiment on Stanford SNAP ca-GrQc"
+    ]
+  ],
+  [
+    "Problem and objectives",
+    [
+      "Rank currently unconnected researchers using co-authorship structure.",
+      "Compare four transparent scores and evaluate missing-link recovery.",
+      "Export exact global top 10 and top 20 rankings."
+    ]
+  ],
+  [
+    "Dataset and graph model",
+    [
+      "5,242 researcher IDs and 14,484 cleaned co-authorship edges.",
+      "Simple, undirected and unweighted graph.",
+      "arXiv GR-QC papers: January 1993 to April 2003.",
+      "Source: snap.stanford.edu/data/ca-GrQc.html"
+    ]
+  ],
+  [
+    "Four prediction methods",
+    [
+      "Common Neighbors: number of shared collaborators.",
+      "Jaccard: shared / combined collaborators.",
+      "Adamic-Adar: sum of 1 / ln(shared neighbor degree).",
+      "Preferential Attachment: degree(u) x degree(v)."
+    ]
+  ],
+  [
+    "Reproducible evaluation",
+    [
+      "Primary seed 42. Random 80/20 split of unique edges.",
+      "Keep every node in training, including isolates.",
+      "Use one full-graph nonedge per held-out positive.",
+      "Score only the training graph. Ties use ascending IDs."
+    ]
+  ],
+  [
+    "Evaluation metrics",
+    [
+      "ROC-AUC measures positive/negative ranking quality.",
+      "Precision@K = hits / K. Recall@K = hits / test positives.",
+      "F1@K is the harmonic mean of precision and recall at K.",
+      "Balanced sampled precision differs from all-nonedge precision."
+    ]
+  ],
+  [
+    "Primary results",
+    [
+      "Highest primary ROC-AUC: Adamic-Adar (0.88894).",
+      "Winner Precision@10: 1.000; Precision@20: 1.000.",
+      "Same test results select the winner, without independent validation."
+    ]
+  ],
+  [
+    "Split sensitivity",
+    [
+      "Repeat the protocol with seeds 7, 21 and 84.",
+      "The primary split remains seed 42.",
+      "The exported sensitivity tables report all metrics and mean/SD."
+    ]
+  ],
+  [
+    "Exact collaborator recommendations",
+    [
+      "All 13,722,177 unordered nonedges are scored.",
+      "Four heaps retain only 20 records each, with no candidate filter.",
+      "Example (Adamic-Adar): IDs 45 and 46, 42 shared collaborators.",
+      "Final recommendations use the full observed graph."
+    ]
+  ],
+  [
+    "Network visualizations",
+    [
+      "Bounded subset. Gray = observed; orange dashed = predicted.",
+      "Full-network charts, offline HTML and Cytoscape exports accompany this view."
+    ]
+  ],
+  [
+    "Application demonstration",
+    [
+      "Open Overview, then select an ID in Network Explorer.",
+      "Compare metrics and ROC curves in Algorithm Comparison.",
+      "Switch method and top 10/20, explain a pair, download CSV.",
+      "Open Researcher Profile for local structure and personal suggestions."
+    ]
+  ],
+  [
+    "Limitations and conclusion",
+    [
+      "IDs supply no names, interests or compatibility evidence.",
+      "Sampled nonedges are assumed negatives.",
+      "Random edge recovery does not prove future prediction.",
+      "Structural scores provide explainable possibilities for further study."
+    ]
+  ]
+]
